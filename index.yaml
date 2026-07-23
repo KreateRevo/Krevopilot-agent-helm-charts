@@ -5,8 +5,33 @@ entries:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/license: Proprietary
     apiVersion: v2
+    appVersion: 2.0.15
+    created: "2026-07-23T19:35:00.7879266+02:00"
+    description: KreateRevoPilot Agent for Kubernetes cluster health and workload
+      signals
+    digest: 52cbceec5475ccc92c7cbd5aa53c96824a89b8403872d719f41830f12176a3f9
+    home: https://github.com/KreateRevo/krevopilot-agent
+    keywords:
+    - kubernetes
+    - agent
+    - observability
+    - gitops
+    - kreate-revo
+    maintainers:
+    - name: KreateRevo
+    name: krevopilot-agent
+    sources:
+    - https://github.com/KreateRevo/krevopilot-agent
+    type: application
+    urls:
+    - https://kreaterevo.github.io/Krevopilot-agent-helm-charts/krevopilot-agent-0.1.15.tgz
+    version: 0.1.15
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Proprietary
+    apiVersion: v2
     appVersion: 2.0.11
-    created: "2026-07-21T21:30:26.2291778+02:00"
+    created: "2026-07-23T19:35:00.774782+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 9d8f56970150555f6894ef541718c8615a599cb1354ca9c78728e66152a14ce7
@@ -31,7 +56,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.11
-    created: "2026-07-21T21:30:26.2174152+02:00"
+    created: "2026-07-23T19:35:00.7608153+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: bdd05c7a4c7af4a1abaa356af3b719aaff31dfb830120a0b9dd2b4b125719ce7
@@ -56,7 +81,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.10
-    created: "2026-07-21T21:30:26.2162653+02:00"
+    created: "2026-07-23T19:35:00.7458756+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 215f269a2ce6ae630da00c163d31b68d053613023168205b47de370d1c4765e2
@@ -81,7 +106,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.9
-    created: "2026-07-21T21:30:26.2146065+02:00"
+    created: "2026-07-23T19:35:00.7306703+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: bab98ddbf9ad0c71ecfc0c84184a4392f2468404d33824fd94aa5a95188d1097
@@ -106,7 +131,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.8
-    created: "2026-07-21T21:30:26.2100989+02:00"
+    created: "2026-07-23T19:35:00.7159838+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 835cbffef0526fa16f42254edd420fd98ec6ee7c1e7f9ff59b3059b9d38778db
@@ -131,7 +156,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.7
-    created: "2026-07-21T21:30:26.2405891+02:00"
+    created: "2026-07-23T19:35:00.9022126+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 0e597cc564288b09cff0d308c63a13090297d71bf6096d39f2f04e96e9a9ebe7
@@ -156,7 +181,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.5
-    created: "2026-07-21T21:30:26.2385882+02:00"
+    created: "2026-07-23T19:35:00.8887763+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: b9c7ec1b80283d40323411d277315078480c78e19ef8af95ebb4674c194e7262
@@ -181,7 +206,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.5
-    created: "2026-07-21T21:30:26.2376631+02:00"
+    created: "2026-07-23T19:35:00.8713663+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: d86d263c1876a5547ecf8843fde3b8f036959441784c31ffcb394c52f931d5c3
@@ -206,7 +231,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.4
-    created: "2026-07-21T21:30:26.2360964+02:00"
+    created: "2026-07-23T19:35:00.8573684+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 97798d05a94779488b8dbc89f00f710236ef6d86c91e0b9d82274bc1aee34e92
@@ -231,7 +256,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.4
-    created: "2026-07-21T21:30:26.2345067+02:00"
+    created: "2026-07-23T19:35:00.8432109+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: b8771a4c07d35e6d40aefa7055606d2168b56816f2ef69163a218a67bfb1eb9c
@@ -256,7 +281,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.3
-    created: "2026-07-21T21:30:26.2333146+02:00"
+    created: "2026-07-23T19:35:00.8299274+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 9afea7b1064b7123d4919b524cb927f3348cb93db7159a6763687698718a681d
@@ -281,7 +306,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.3
-    created: "2026-07-21T21:30:26.2320798+02:00"
+    created: "2026-07-23T19:35:00.8161862+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 98536912302bee7244c8b316916275a70659a6f130f0d8860636cad66739d292
@@ -306,7 +331,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.2
-    created: "2026-07-21T21:30:26.2303254+02:00"
+    created: "2026-07-23T19:35:00.8018387+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: 9e4a9f743739bf9744e367e464431db03b40052066faecc6f165e7f4a0a311d6
@@ -331,7 +356,7 @@ entries:
       artifacthub.io/license: Proprietary
     apiVersion: v2
     appVersion: 2.0.1
-    created: "2026-07-21T21:30:26.2083533+02:00"
+    created: "2026-07-23T19:35:00.7012762+02:00"
     description: KreateRevoPilot Agent for Kubernetes cluster health and workload
       signals
     digest: c2b22a6329ec1e65f077a5435f553d374246e85d40fbe323e8206dde04744489
@@ -351,4 +376,4 @@ entries:
     urls:
     - https://kreaterevo.github.io/Krevopilot-agent-helm-charts/krevopilot-agent-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-21T21:30:26.2065373+02:00"
+generated: "2026-07-23T19:35:00.6797347+02:00"
