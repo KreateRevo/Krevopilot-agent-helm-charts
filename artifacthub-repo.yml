@@ -2,20 +2,9 @@
 #
 # Artifact Hub reads this file from the root of the Helm repository (the same
 # location it fetches index.yaml from) to confirm that whoever controls this
-# repository also controls the Artifact Hub entry. Matching it earns the
-# "Verified Publisher" badge, which is the difference between a listing people
-# trust enough to install and one they skip.
-#
-# TODO before this works:
-#   1. Sign in at https://artifacthub.io and create the "kreate-revo" organization.
-#   2. Add a Helm repository:
-#        Name: kreate-revo
-#        URL:  https://kreaterevo.github.io/Krevopilot-agent-helm-charts
-#   3. Copy the repository ID that Artifact Hub shows for it.
-#   4. Replace the placeholder below with that ID, commit and push.
-#   5. Artifact Hub re-scans within roughly 30 minutes and the badge appears.
+# repository also controls the Artifact Hub entry.
 
-repositoryID: 00000000-0000-0000-0000-000000000000
+repositoryID: d7a646d8-228c-469a-9b55-be749986730d
 
 owners:
   - name: KreateRevo UG
