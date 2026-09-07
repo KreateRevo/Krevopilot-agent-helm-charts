@@ -94,6 +94,20 @@ The verbs are limited to `get`, `list` and `watch`. There is no `create`, `updat
 
 ---
 
+## Security review documents
+
+This repository intentionally publishes the packaged Helm chart and the review
+documents below, not the agent runtime source:
+
+- [RBAC](docs/rbac.md) - every permission the chart grants, and why
+- [Configuration](docs/configuration.md) - full value reference
+- [Network](docs/network.md) - egress destinations and NetworkPolicy
+- [Report schema](docs/schema.md) - exactly what a snapshot contains
+- [Redaction](docs/redaction.md) - what is scrubbed, and where
+- [Security](docs/security.md) - threat model and hardening
+
+---
+
 ## Hardening defaults
 
 The pod runs as non-root (UID 10001) with a read-only root filesystem, `allowPrivilegeEscalation: false`, and a 16Mi writable `emptyDir` for temporary files. Connections are outbound only — nothing needs to reach into your cluster, and no inbound port is exposed.
