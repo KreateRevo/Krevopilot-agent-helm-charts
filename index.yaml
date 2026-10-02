@@ -19,6 +19,58 @@ entries:
         - name: KreateRevo UG
           email: support@krevopilot.com
     apiVersion: v2
+    appVersion: 2.0.44
+    created: "2026-10-02T11:21:48.8351843+02:00"
+    description: Read-only Kubernetes agent for KrevoPilot - collects workload health,
+      warning events, node signals and Metrics Server usage for AI incident investigation
+      and resource rightsizing
+    digest: 0c0c9cba54908ccfecc33837a9e1fa25d452f5ad129ef897125c7db5ad59bb5f
+    home: https://krevopilot.com
+    icon: https://krevopilot.com/kreaterevo-symbol.png
+    keywords:
+    - kubernetes
+    - krevopilot
+    - agent
+    - observability
+    - monitoring
+    - troubleshooting
+    - incident-response
+    - root-cause-analysis
+    - cost-optimization
+    - rightsizing
+    - finops
+    - sre
+    - devops
+    - ai
+    - gitops
+    maintainers:
+    - name: KreateRevo UG
+      url: https://krevopilot.com
+    name: krevopilot-agent
+    sources:
+    - https://github.com/KreateRevo/Krevopilot-agent-helm-charts
+    type: application
+    urls:
+    - https://KreateRevo.github.io/Krevopilot-agent-helm-charts/krevopilot-agent-0.1.47.tgz
+    version: 0.1.47
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Proprietary
+      artifacthub.io/links: |
+        - name: Product
+          url: https://krevopilot.com
+        - name: Documentation
+          url: https://krevopilot.com/documentation.html
+        - name: Getting started
+          url: https://krevopilot.com/docs-getting-started.html
+        - name: Security and data handling
+          url: https://krevopilot.com/docs-security.html
+        - name: Agent RBAC reference
+          url: https://krevopilot.com/agent-rbac.html
+      artifacthub.io/maintainers: |
+        - name: KreateRevo UG
+          email: support@krevopilot.com
+    apiVersion: v2
     appVersion: 2.0.43
     created: "2026-09-07T17:29:49.4349254+02:00"
     description: Read-only Kubernetes agent for KrevoPilot - collects workload health,
